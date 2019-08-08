@@ -1,17 +1,16 @@
-# Compiled Lua sources
-luac.out
-
-# luarocks build files
-*.src.rock
-*.zip
-*.tar.gz
+# Prerequisites
+# *.d
 
 # Object files
 *.o
-*.os
 *.ko
 *.obj
 *.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
 
 # Precompiled Headers
 *.gch
@@ -22,8 +21,6 @@ luac.out
 *.a
 *.la
 *.lo
-*.def
-*.exp
 
 # Shared objects (inc. Windows DLLs)
 *.dll
@@ -39,3 +36,22 @@ luac.out
 *.x86_64
 *.hex
 
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Code Edit
+.vscode
+cfadmin
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.DS_Store
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
